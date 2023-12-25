@@ -1,0 +1,55 @@
+/* <----- Reset CSS -----> */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* <----- Body CSS -----> */
+
+body{
+    /* background-image: url(bg.jpeg); */
+    /* background-size: cover; */
+    overflow: hidden;
+    height: 100vh;
+}
+
+/* <----- Icons CSS -----> */
+/* 
+.icons{
+    color: white;
+} */
+
+/* <----- Taskbar CSS -----> */
+
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f3f3f3;
+    z-index: 5;
+}
+
+.right{
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 85%;
+}
+
+/* <----- Start Menu CSS -----> */
+
+.startmenu{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s ease-in;
+}
+
+.startmenu img{
+    border-radius: 8px;
+}
